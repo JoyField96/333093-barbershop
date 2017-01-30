@@ -1,7 +1,7 @@
 body {
     font-size:14px;
     line-height:24px;
-    font-color:black;
+    color:black;
     font-weight:bold;
     font-family: PT Sans;
 }
@@ -9,15 +9,13 @@ body {
 h1 {
     font-size:30px;
     line-height:42px;
-    font-color:black;
+    color:black;
     font-weight:bold;
-    font-family: PT Sans;
 }
 
 h2 {
     font-size:24px;
     line-height:30px;
-    font-color:black;
+    color:black;
     font-weight:bold;
-    font-family: PT Sans;
 }
