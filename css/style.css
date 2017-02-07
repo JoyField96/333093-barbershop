@@ -53,15 +53,11 @@ body {
 .main-navigation {
     float:left;
     width:780px;
-  /* Только для оформления сетки */
-  min-height: 70px;
 }
 
 .user-block {
     float:right;
     width:140px;
-              /* Только для оформления сетки */
-  min-height: 70px;
 }
 .main-container {
     width:960px;
@@ -79,14 +75,13 @@ body {
     float:left;
 }
 
-.manufacturers {
-    display:block;
+.right-side{
+    width:730px;
+    float:right;
 }
 
 .goods {
-    width: 720px;
-    display: inline-block;
-    font-size: 0;
+    width: 730px;
 }
 
 .product {
@@ -121,37 +116,15 @@ body {
     vertical-align:top;  
 }
 
-.main-footer {
-    padding: 20px 0;
-    clear: left;
-    margin-top: 65px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
 .footer-contacts {
     float: left;
     width: 320px;
     margin-right: 60px;
-
-    /* Только для оформления сетки */
-    min-height: 90px;
 }
 
 .footer-social {
     float: left;
     width: 180px;
-
-    /* Только для оформления сетки */
-    min-height: 90px;
-}
-
-.footer-copyright {
-    float: right;
-    width: 180px;
-
-    /* Только для оформления сетки */
-    min-height: 90px;
 }
 
 /*                    доработки items                 */
@@ -160,7 +133,17 @@ body {
     margin-top:60px;
     width: 460px;
     float:left;
-    margin-right: 80px
+}
+
+.picturessmall {
+    float:left;
+    padding-right:20px;
+    padding-top: 20px;
+}
+
+.picturessmall:last-child {
+    float:right;
+    padding-right:0;
 }
 
 .right-column {
@@ -178,26 +161,7 @@ body {
     padding-bottom: 40px;
 }
 
-.footer-contacts {
-    float: left;
-    width: 320px;
-    margin-right: 60px;
-
-    /* Только для оформления сетки */
-    min-height: 90px;
-}
-
-.footer-social {
-    float: left;
-    width: 180px;
-
-    /* Только для оформления сетки */
-    min-height: 90px;
-}
-
 .footer-copyright {
     float: right;
     width: 180px;
-
-    /* Только для оформления сетки */
-    min-height: 90px;
+}
